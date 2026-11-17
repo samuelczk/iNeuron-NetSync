@@ -248,7 +248,7 @@ def build_command(settings: dict, data_dir: Path) -> tuple[list[str], dict, str 
         return argv, env, str(REPO_ROOT), " ".join(argv)
 
     if mode == "docker":
-        image = settings.get("image", "ghcr.io/samuelchu030609-commits/ineuron-netsync:latest")
+        image = settings.get("image", "ghcr.io/samuelczk/ineuron-netsync:latest")
         argv = ["docker", "run", "--rm", "-v", f"{data_dir}:/data", image, "/data"]
         return argv, env, None, " ".join(argv)
 
@@ -973,7 +973,7 @@ else:
         elif mode == "docker":
             settings["image"] = st.text_input(
                 "Docker image",
-                settings.get("image", "ghcr.io/samuelchu030609-commits/ineuron-netsync:latest"))
+                settings.get("image", "ghcr.io/samuelczk/ineuron-netsync:latest"))
         else:  # direct
             settings["python_path"] = st.text_input(
                 "Python interpreter (must import numpy/scipy/pandas + TensorFlow for CASCADE)",

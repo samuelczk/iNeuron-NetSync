@@ -37,7 +37,7 @@ indicator, contact us first: the spike-inference model has to match the indicato
 
 ### Step W1 — Download the pipeline
 
-1. Click this link: **<https://github.com/samuelchu030609-commits/iNeuron-NetSync/archive/refs/heads/main.zip>**
+1. Click this link: **<https://github.com/samuelczk/iNeuron-NetSync/archive/refs/heads/main.zip>**
    A file named `iNeuron-NetSync-main.zip` downloads (a small file, under 1 MB).
    No GitHub account is needed.
 2. Open your **Downloads** folder. **Right-click** the ZIP file → **Properties**. At the
@@ -82,7 +82,7 @@ everything it needs.
 
 ### Step M1 — Download the pipeline
 
-1. Click this link: **<https://github.com/samuelchu030609-commits/iNeuron-NetSync/archive/refs/heads/main.zip>**
+1. Click this link: **<https://github.com/samuelczk/iNeuron-NetSync/archive/refs/heads/main.zip>**
 2. Open your **Downloads** folder. Safari usually unzips it by itself. If you see only a
    `.zip` file, double-click it.
 
